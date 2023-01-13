@@ -1,0 +1,108 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "contracts:compile:abi": {
+      "name": "contracts:compile:abi",
+      "command": "yarn contracts:compile:abi",
+      "runAtStart": false
+    },
+    "contracts:compile:v3": {
+      "name": "contracts:compile:v3",
+      "command": "yarn contracts:compile:v3",
+      "runAtStart": false
+    },
+    "contracts:compile": {
+      "name": "contracts:compile",
+      "command": "yarn contracts:compile",
+      "runAtStart": false
+    },
+    "prei18n:extract": {
+      "name": "prei18n:extract",
+      "command": "yarn prei18n:extract",
+      "runAtStart": false
+    },
+    "i18n:extract": {
+      "name": "i18n:extract",
+      "command": "yarn i18n:extract",
+      "runAtStart": false
+    },
+    "i18n:compile": {
+      "name": "i18n:compile",
+      "command": "yarn i18n:compile",
+      "runAtStart": false
+    },
+    "i18n:pseudo": {
+      "name": "i18n:pseudo",
+      "command": "yarn i18n:pseudo",
+      "runAtStart": false
+    },
+    "ajv:compile": {
+      "name": "ajv:compile",
+      "command": "yarn ajv:compile",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "yarn typecheck",
+      "runAtStart": false
+    },
+    "prebuild": {
+      "name": "prebuild",
+      "command": "yarn prebuild",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "yarn release",
+      "runAtStart": false
+    },
+    "deduplicate": {
+      "name": "deduplicate",
+      "command": "yarn deduplicate",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:e2e": {
+      "name": "test:e2e",
+      "command": "yarn test:e2e",
+      "runAtStart": false
+    }
+  }
+}
